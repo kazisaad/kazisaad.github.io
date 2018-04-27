@@ -36,7 +36,7 @@
                 <a class="navbar-brand" href="#">
                     <div class="logo">
 
-                        <img src="img/logo.png"></div>
+                        <img id="navbarLogo" src="img/logo.png"></div>
                 </a>
             </div>
 
@@ -84,12 +84,12 @@
 
 <!--HOME-->
 
-<section id="home">
+<section id="home" class="img-responsive" >
 
     <nav  id="navbar" class="navigation " role="navigation">
         <a class="navbar-brand" href="#">
             <div class="logo">
-                <img src="img/logo.png">
+                <img  src="img/logo.png">
             </div>
         </a>
 
@@ -914,26 +914,31 @@
     });
 
 
-    (function ($) {
-        $(document).ready(function(){
-
-
-
-            $(function () {
-                $(window).scroll(function () {
-                    if ($(this).scrollTop() > 250) {
-                        $(".navbar").css("display","none");
-
-                    } else {
-                        if($( window ).width() > 400) {
-                            $(".navbar").css("display", "block");
-                        }
-                    }
-                });
-            });
-
-        });
-    }(jQuery));
+    // (function ($) {
+    //     $(document).ready(function(){
+    //
+    //
+    //         $(function () {
+    //             $(window).scroll(function () {
+    //                 if ($(this).scrollTop() > 250) {
+    //                     $(".navbar").css("display","none");
+    //                     $("#navbarLogo").css("display","none");
+    //
+    //                 } else {
+    //                     if($( window ).width() > 400) {
+    //                         $(".navbar").css("display", "block");
+    //                         $("#navbarLogo").css("display","block");
+    //                     }
+    //                     else{
+    //                         $(".navbar").css("display","none");
+    //                         $("#navbarLogo").css("display","none");
+    //                     }
+    //                 }
+    //             });
+    //         });
+    //
+    //     });
+    // }(jQuery));
 
 
 
