@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bootstrap-3.3.7-dist/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Travel Airmiles</title>
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/Style.css">
+    <link rel="stylesheet" href="animate.min.css">
+
+    <!-- Bootstrap -->
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+
+    <![endif]-->
+    <script>
+
+    </script>
+</head>
+<body>
+
+
+<!--NAVBAR-->
+
+ <div class="navbar navbar-default navbar-fixed-top" id="navbar1" role="navigation">
+
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toogle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <div class="logo">
+
+                        <img src="img/logo.png"></div>
+                </a>
+            </div>
+
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right n">
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#blog ">BLOG</a></li>
+                    <li class="l"><div></div></li>
+                    <li>
+                        <div class="row s" data-toggle="dropdown">
+                            <div class="col-md-offset-1 col-md-2 i ">
+                                <img src="img/girlimg.png"/>
+                            </div>
+                            <div class="col-md-offset-1 col-md-8">
+                                <h4>
+                                    Maria Sharapova
+                                </h4>
+                                <p>
+                                    New York, USA
+                                    <img style="float: right; margin-top: -10%;" src="expand-arrow.png"/>
+                                </p>
+
+                            </div>
+                            <div class="col-md-1">
+
+                            </div>
+                        </div>
+                        <ul class="dropdown-menu">
+                            <li><a style="color: #5280C6;">Profile</a></li>
+                            <li><a style="color: #5280C6;">Dashboard</a></li>
+                            <li><a style="color: #5280C6;">About Us</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+
+       </div>
+ </div>
+
+
+
+
+<!--NAVBAR-ENDS-->
+
+<!--HOME-->
+
+<section id="home">
+
+    <nav  id="navbar" class="navigation " role="navigation">
+        <a class="navbar-brand" href="#">
+            <div class="logo">
+                <img src="img/logo.png">
+            </div>
+        </a>
+
+        <input id="toggle" type="checkbox" />
+        <label class="hamburger" for="toggle" style="width: 5%; float: right;">
+            <div class="top"></div>
+            <div class="meat"></div>
+            <div class="bottom"></div>
+        </label>
+
+        <nav class="menu" style="background: transparent">
+            <a class="link">About</a>
+            <a class="link" >Blog</a>
+            <a class="link" >Profile</a>
+            <a class="link" >Dashboard</a>
+            <a class="link" >Logout</a>
+            <a></a>
+        </nav>
+    </nav>
+
+
+    <div class="container">
+
+
+
+
+        <div class="row">
+        <div class="col-md-5 col-sm-7">
+        <h2>Discover the potential
+            of your airmiles</h2>
+            <p>Get notified instantly on airmiles for the best
+                deals on your selected destinations.</p>
+        </div>
+        </div>
+        <div class="row r">
+            <div class="col-md-2 col-sm-3 col-xs-4">
+                <button type="button" class="btn btn-success btn1">Get Started</button>
+            </div>
+            <div class="col-md-2 col-sm-3 col-xs-3">
+                <button type="button" class="btn btn-success btn2"><i class="fa fa-play-circle-o" aria-hidden="true"></i>Watch Video</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--HOME-ENDS-->
+
+<!--FLIGHT-ALERTS-->
+
+<section id="flight">
+    <div class="container f"  >
+        <div class="row r">
+            <div class="col-md-2 col-sm-2 col-xs-1 i" id="flightPreviousDiv" >
+                <img src="img/sliderL.png" >
+            </div>
+            <div class= "col-md-8 col-sm-8 col-xs-10">
+                <h3>
+                    SET FLIGHT ALERTS
+                </h3>
+                <p class="p">
+                    Select flight criteria and save, get notified by email when the criteria matches. Femme helps you use your
+                    air miles efficiently without any efforts. No need to search the internet for the flights any more.
+                </p>
+            </div>
+            <div class="col-md-2 col-sm-2 col-xs-1 i"  id="flightNextDiv">
+                <img src="img/sliderR.png">
+            </div>
+        </div>
+
+
+
+
+        <div class="row animated" style="z-index: -1;" id="flightOne">
+            <div class="col-md-4 col-sm-4">
+                <img class="img-responsive r1" src="img/mac.png">
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <img class="img-responsive r2" src="img/line.png">
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+                <img class="img-responsive r3" src="img/mobile.png">
+            </div>
+        </div>
+
+
+        <div class="row animated" style="z-index: -1; display: none;" id="flightTwo">
+            <div class="col-md-4 col-sm-4">
+                <img class="img-responsive r1" src="im/mac.png">
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <img class="img-responsive r2" src="img/line.png">
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+                <img class="img-responsive r3" src="img/mobile.png">
+            </div>
+        </div>
+
+
+        <div class="row animated" style="z-index: -1; display: none;" id="flightThree">
+            <div class="col-md-4 col-sm-4">
+                <img class="img-responsive r1" src="img/mac.png">
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <img class="img-responsive r2" src="img/lin.png">
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+                <img class="img-responsive r3" src="img/mobile.png">
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+
+<!--FLIGHT-ALERT-ENDS-->
+
+<!--FEATURES-->
+
+<section id="features" style="z-index: 4; position: relative">
+    <div class="container">
+        <div class="row top">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <h1>FEATURES YOU WILL LOVE</h1>
+                <p>Once you start using femme these features will feel like you were missing them in life.</p>
+            </div>
+        </div>
+        <div class="row middle1">
+            <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="col-md-offset-1 col-md-2 i">
+                    <img src="img/RU.png">
+                </div>
+                <div class="col-md-9">
+                    <h4>Realtime Updates</h4>
+                    <p>
+                        Once you start using femme these features will feel like you were missing them in life. Once you start using femme these features will feel.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="col-md-offset-1 col-md-2 i">
+                    <img src="img/IM.png">
+                </div>
+                <div class="col-md-9">
+                    <h4>Instant Messaging</h4>
+                    <p>
+                        Once you start using femme these features will feel like you were missing them in life. Once you start using femme these features will feel.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="col-md-offset-1 col-md-2 i">
+                    <img src="img/IN.png">
+                </div>
+                <div class="col-md-9">
+                    <h4>Instant Notification</h4>
+                    <p>
+                        Once you start using femme these features will feel like you were missing them in life. Once you start using femme these features will feel.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row middle2">
+            <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="col-md-offset-1 col-md-2 ">
+                    <img src="img/YF.png">
+                </div>
+                <div class="col-md-9">
+                    <h4>Your Favourite</h4>
+                    <p>
+                        Once you start using femme these features will feel like you were missing them in life. Once you start using femme these features will feel.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="col-md-offset-1 col-md-2 i">
+                    <img src="img/YV.png">
+                </div>
+                <div class="col-md-9">
+                    <h4>Your Airmiles</h4>
+                    <p>
+                        Once you start using femme these features will feel like you were missing them in life. Once you start using femme these features will feel.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="col-md-offset-1 col-md-2 i">
+                    <img src="img/man.png">
+                </div>
+                <div class="col-md-9">
+                    <h4>Your Vacation</h4>
+                    <p>
+                        Once you start using femme these features will feel like you were missing them in life. Once you start using femme these features will feel.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row end">
+            <div class="col-md-12 col-sm-12 col-xs-12 ">
+                <button type="button" class="btn btn-default btn">Get Started</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--FEATURES-ENDS-->
+
+
+<!--FEATURES-->
+
+<section id="pricing">
+    <div class="container pricingContainer">
+
+        <div class="row pricingHeadingHolder">
+            <div class= "col-md-offset-2 col-md-8 col-sm-12 col-xs-12 pricingText">
+                <h3>
+                    AFFORDABLE PRICE PLAN
+                </h3>
+                <p class="p pricingSubtext">
+                    Our price plan is decided with YOU in mind and always easily affordable give double the value
+                </p>
+            </div>
+        </div>
+
+        <div class="row pricingCardHolder" >
+
+
+            <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="promo scale">
+                    <div class="deal">
+                        <span>Basic</span>
+                    </div>
+                    <span class="price">$09<p style="margin:0;">USD/mo</p></span>
+                    <ul class="features">
+                        <li><img src="tick.png">Aliquam tincidunt mauris eu </li>
+                        <li><img src="tick.png">risus.</li>
+                        <li><img src="tick.png">Vestibulum auctor dapibus </li>
+                        <li><img src="tick.png">neque. </li>
+                        <li><img src="tick.png">Nunc dignissim risus id metus. </li>
+                        <li><img src="tick.png">Cras ornare tristique elit. </li>
+                        <li><img src="tick.png">Praesent placerat risus quis eros.</li>
+                        <li><img src="tick.png">Fusce pellentesque suscipit nibh. </li>
+                    </ul>
+                    <button type="button" class="btn btn-success btn2">Get Started</button>
+                </div>
+            </div>
+            <div class="col-md-4  col-sm-4  col-xs-12">
+                <div class="promo scale">
+                    <div class="deal">
+                        <span>Standard</span>
+                    </div>
+                    <span class="price">$99<p style="margin:0;">USD/mo</p></span>
+                    <ul class="features">
+                        <li><img src="tick.png">Aliquam tincidunt mauris eu </li>
+                        <li><img src="tick.png">risus.</li>
+                        <li><img src="tick.png">Vestibulum auctor dapibus </li>
+                        <li><img src="tick.png">neque. </li>
+                        <li><img src="tick.png">Nunc dignissim risus id metus. </li>
+                        <li><img src="tick.png">Cras ornare tristique elit. </li>
+                        <li><img src="tick.png">Praesent placerat risus quis eros.</li>
+                        <li><img src="tick.png">Fusce pellentesque suscipit nibh. </li>
+                    </ul>
+                    <button type="button" class="btn btn-success btn2">Get Started</button>
+                </div>
+            </div>
+            <div class="col-md-4  col-sm-4  col-xs-12">
+                <div class="promo scale">
+                    <div class="deal">
+                        <span>Diamond</span>
+                    </div>
+                    <span class="price">$199<p style="margin:0;">USD/mo</p></span>
+                    <ul class="features">
+                        <li><img src="tick.png">Aliquam tincidunt mauris eu </li>
+                        <li><img src="tick.png">risus.</li>
+                        <li><img src="tick.png">Vestibulum auctor dapibus </li>
+                        <li><img src="tick.png">neque. </li>
+                        <li><img src="tick.png">Nunc dignissim risus id metus. </li>
+                        <li><img src="tick.png">Cras ornare tristique elit. </li>
+                        <li><img src="tick.png">Praesent placerat risus quis eros.</li>
+                        <li><img src="tick.png">Fusce pellentesque suscipit nibh. </li>
+                    </ul>
+                    <button type="button" class="btn btn-success btn2">Get Started</button>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+
+
+    </div>
+</section>
+
+<!--FEATURES-ENDS-->
+
+<section id="usersFeedback">
+    <div class="container usersFeedbackContainer" style="padding-bottom: 5%;">
+
+        <div class="row usersFeedbackHeading">
+            <div class= "col-md-offset-2 col-md-8 col-sm-12 col-xs-12 usersFeedbackText">
+                <h3>
+                    What users say about us!
+                </h3>
+                <p class="p pricingSubtext">
+                    Our price plan is decided with YOU in mind and always easily affordable give double the value
+                </p>
+            </div>
+        </div>
+
+        <div id="quote1">
+            <div class="row usersFeedbackQuotes" >
+                <div class="col-md-1 col-md-offset-6 col-xs-1 col-xs-offset-5 ">
+                    <img src="quotes.png">
+                </div>
+            </div>
+            <div class="row reviewContent">
+
+                <div id="reviewOne" class="col-md-8 col-md-offset-2 animated slideInRight">
+                    <p class="p reviews">
+                        I never knew that I can bring the airmiles to such good use. Femme have helped me travel to destinations for free where I would have otherwise paid thousands of dollars. Thank you to have my back, Femme!
+                    </p>
+                </div>
+
+                <div id="reviewTwo" class="col-md-8 col-md-offset-2 animated" style="display: none;">
+                    <p class="p reviews">
+                        Cras vel sodales mauris. Morbi sagittis nibh neque, a maximus arcu vehicula vitae. Vestibulum ut fringilla eros. Cras molestie mi eget nulla iaculis, quis suscipit sem porta.
+                    </p>
+                </div>
+
+                <div id="reviewThree" class="col-md-8 col-md-offset-2 animated" style="display: none;">
+                    <p class="p reviews">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id orci quis tortor tristique pulvinar sed non tellus. Aenean commodo enim nisi, ac vulputate lacus cursus vel.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row reviewPeople">
+            <div id="reviewOnePerson" class="col-md-3 col-md-offset-2 col-xs-3 col-xs-offset-2  notFaded animated fadeIn">
+                <div class="row" >
+                    <div class="col-md-3">
+                        <img  src="face1.png">
+                    </div>
+                    <div class="col-md-9 reviewName">
+                        <p>John Blake</p>
+                        <p>Facebook</p>
+                    </div>
+                </div>
+            </div>
+            <div id="reviewTwoPerson" class="col-md-3 col-xs-3 faded animated">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="face2.png">
+                    </div>
+                    <div class="col-md-9 reviewName">
+                        <p>Sarah Lingard</p>
+                        <p>Google</p>
+                    </div>
+                </div>
+            </div>
+            <div id="reviewThreePerson" class="col-md-3 col-xs-3 faded animated">
+                <div class="col-md-3">
+                    <img src="face3.png">
+                </div>
+                <div class="col-md-9 reviewName">
+                    <p>Tores Samntha</p>
+                    <p>Quora</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<section style="height: 100px;" id="footer">
+
+</section>
+
+
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+<script>
+
+    var countFlight = 1;
+    $("#flightNextDiv").click(function () {
+        console.log(countFlight);
+        if(countFlight+1 > 2){
+            $("#flightNextDiv").css("opacity","0");
+            $("#flightPreviousDiv").css("opacity","1");
+        }
+        if(countFlight == 1){
+            $("#flightOne").addClass("slideOutLeft");
+
+            setTimeout(function () {
+                $("#flightOne").css("display","none");
+
+                $("#flightTwo").removeClass("slideInRight");
+                $("#flightTwo").removeClass("slideOutRight");
+                $("#flightTwo").removeClass("slideOutLeft");
+                $("#flightTwo").removeClass("slideOutLeft");
+                $("#flightTwo").css("display","block");
+                $("#flightTwo").addClass("slideInRight");
+            },1000)
+        }
+
+        if(countFlight == 2){
+            $("#flightTwo").addClass("slideOutLeft");
+
+            setTimeout(function () {
+                $("#flightTwo").css("display","none");
+
+                $("#flightThree").removeClass("slideInRight");
+                $("#flightThree").removeClass("slideOutRight");
+                $("#flightThree").removeClass("slideOutLeft");
+                $("#flightThree").removeClass("slideOutLeft");
+                $("#flightThree").css("display","block");
+                $("#flightThree").addClass("slideInRight");
+            },1000)
+        }
+
+        countFlight++;
+
+    });
+
+
+    $("#flightPreviousDiv").click(function () {
+        console.log(countFlight + "from previous");
+        if(countFlight-1 <= 1){
+            $("#flightPreviousDiv").css("opacity","0");
+            $("#flightNextDiv").css("opacity","1");
+        }
+        if(countFlight+1 > 2){
+            $("#flightNextDiv").css("opacity","1");
+        }
+        if(countFlight == 3){
+            $("#flightThree").addClass("slideOutRight");
+            setTimeout(function () {
+                $("#flightThree").css("display","none");
+
+                $("#flightTwo").removeClass("slideInRight");
+                $("#flightTwo").removeClass("slideOutRight");
+                $("#flightTwo").removeClass("slideOutLeft");
+                $("#flightTwo").removeClass("slideOutLeft");
+                $("#flightTwo").css("display","block");
+                $("#flightTwo").addClass("slideInLeft");
+            },1000);
+        }
+
+        if(countFlight == 2){
+            console.log("Here");
+            $("#flightTwo").addClass("slideOutRight");
+            setTimeout(function () {
+                $("#flightTwo").css("display","none");
+
+                $("#flightOne").removeClass("slideInRight");
+                $("#flightOne").removeClass("slideOutRight");
+                $("#flightOne").removeClass("slideOutLeft");
+                $("#flightOne").removeClass("slideOutLeft");
+                $("#flightOne").css("display","block");
+                $("#flightOne").addClass("slideInLeft");
+            },1000);
+        }
+
+        countFlight--;
+
+    });
+
+
+
+
+    $("#reviewOnePerson").click(function () {
+        $("#reviewOnePerson").css("display","block");
+        $("#reviewOnePerson").addClass("fadeIn");
+        $("#reviewOnePerson").removeClass("faded");
+        $("#reviewOnePerson").addClass("notFaded");
+
+        $("#reviewTwoPerson").removeClass("notFaded");
+        $("#reviewTwoPerson").removeClass("fadeIn");
+        $("#reviewThreePerson").removeClass("notFaded");
+        $("#reviewThreePerson").removeClass("fadeIn");
+        $("#reviewTwoPerson").addClass("faded");
+        $("#reviewThreePerson").addClass("faded");
+
+
+        $("#reviewTwo").addClass("slideOutLeft");
+        $("#reviewThree").addClass("slideOutLeft");
+
+        $("#reviewTwo").removeClass("slideInRight");
+        $("#reviewThree").removeClass("slideInRight");
+
+        setTimeout(function () {
+            $("#reviewTwo").css("display","none");
+            $("#reviewThree").css("display","none");
+
+            $("#reviewOne").css("display","block");
+
+            $("#reviewOne").removeClass("slideOutLeft");
+            $("#reviewOne").addClass("slideInRight");
+        },1100);
+    });
+
+
+    $("#reviewTwoPerson").click(function () {
+        $("#reviewTwoPerson").css("display","block");
+        $("#reviewTwoPerson").addClass("fadeIn");
+        $("#reviewTwoPerson").removeClass("faded");
+        $("#reviewTwoPerson").addClass("notfaded");
+
+        $("#reviewOnePerson").removeClass("fadeIn");
+        $("#reviewOnePerson").removeClass("notFaded");
+        $("#reviewThreePerson").removeClass("notFaded");
+        $("#reviewThreePerson").removeClass("fadeIn");
+        $("#reviewOnePerson").addClass("faded");
+        $("#reviewThreePerson").addClass("faded");
+
+
+
+
+
+
+        $("#reviewOne").addClass("slideOutLeft");
+        $("#reviewThree").addClass("slideOutLeft");
+
+        $("#reviewOne").removeClass("slideInRight");
+        $("#reviewThree").removeClass("slideInRight");
+
+        setTimeout(function () {
+            $("#reviewOne").css("display","none");
+            $("#reviewThree").css("display","none");
+
+            $("#reviewTwo").css("display","block");
+
+            $("#reviewTwo").removeClass("slideOutLeft");
+            $("#reviewTwo").addClass("slideInRight");
+        },1100);
+
+    });
+
+
+    $("#reviewThreePerson").click(function () {
+        $("#reviewThreePerson").css("display","block");
+        $("#reviewThreePerson").addClass("fadeIn");
+        $("#reviewThreePerson").removeClass("faded");
+        $("#reviewThreePerson").addClass("notfaded");
+
+        $("#reviewOnePerson").removeClass("fadeIn");
+        $("#reviewTwoPerson").removeClass("fadeIn");
+        $("#reviewOnePerson").removeClass("notFaded");
+        $("#reviewTwoPerson").removeClass("notFaded");
+        $("#reviewOnePerson").addClass("faded");
+        $("#reviewTwoPerson").addClass("faded");
+
+
+
+
+        $("#reviewOne").addClass("slideOutLeft");
+        $("#reviewTwo").addClass("slideOutLeft");
+
+        $("#reviewOne").removeClass("slideInRight");
+        $("#reviewTwo").removeClass("slideInRight");
+
+        setTimeout(function () {
+            $("#reviewOne").css("display","none");
+            $("#reviewTwo").css("display","none");
+
+            $("#reviewThree").css("display","block");
+
+            $("#reviewThree").removeClass("slideOutLeft");
+            $("#reviewThree").addClass("slideInRight");
+        },1100);
+    });
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>
