@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OKIHA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Mina|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section id="head">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-1 col-xs-1 homeIcon"><p class="file23-top-left-icon"><a href="fileNo17.html">Orders</a> </p></div>
+            <div class="col-md-8 col-md-offset-2   col-xs-6"><img class="img-responsive okiha-logo-fileNo10" src="img/logoOkiha.png" alt=""></div>
+            <div class="col-md-2 col-xs-2 dropDown-Circle">
+
+                <div id="drop-down-back-div" class="back-div-right-circle-dropDown"></div>
+                <div id="drop-down-back-div1" style="display: none;" class="back-div2-right-circle-dropDown"></div>
+                <div class="circle-menu">
+
+                    <button class="circle-menu__button circle-menu__toggle-button" data-circle-menu-toggle="" id="drop-down-button"><p class="file23-top-right-icon">Index</p></button>
+                    <div class="circle-menu__buttons-group" data-circle-menu-group="">
+                        <button id="usersCloseBtn" class="file31-top-right-icon circle-menu-button1-file31" data-circle-menu-toggle2=""><p class="file32-top-right-menu-user">Users</p></button>
+                        <button class="file31-top-right-icon2 circle-menu-button2-file31"><p class="file32-top-right-menu-user">Dishes</p></i></button>
+
+                        <div class="circle-menu__buttons-group" id="usersDetailsDiv" data-circle-menu-group2="">
+                            <button class="file32-top-right-icon3 circle-menu-button3-file32"><p class="file32-top-right-menu-user">User</p></button>
+                            <button class="file32-top-right-icon4 circle-menu-button4-file32"><p class="file32-top-right-menu-user">Delete account</p></i></button>
+                        </div>
+
+                        <!--<button class="file32-top-right-icon3 circle-menu-button3-file32"><p class="file32-top-right-menu-user">User</p></button>-->
+                        <!--<button class="file32-top-right-icon4 circle-menu-button4-file32"><p class="file32-top-right-menu-user">Delete account</p></i></button>-->
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="file30-text">
+    <div class="container">
+        <div class="row">
+            <p class="file30-para"> What ever was in the background <br>
+                here...</p>
+        </div>
+    </div>
+
+</section>
+
+<section id="footer">
+    <div class="container">
+        <div class="row file30-footer-row">
+            <div class="col-md-1 col-xs-1 footer-fa-left">
+
+                <span class="file30-left-icon-down"><a href="fileNo32.html">8</a></span>
+                <button class="footer-icon-scale-div" data-circle-menu-toggle=""><i class="fa fa-comment file30-fa-icon-msg"></i> </p></button>
+                <div class="circle-menu__buttons-group" data-circle-menu-group="">
+                    <button class="footer-circle-menu__button scale-menu__button--1"><p class="scale-menu-terms"><a href="fileNo10.html">unsolved</a></p></button>
+                    <button style="z-index: 99;" class="footer-circle-menu__button scale-menu__button--2"><p class="right-top-menu-privacy"><a href="fileNo11.html">Solved</a></p></button>
+                </div>
+
+            </div>
+            <div class="col-md-9 col-xs-6"><p class="footer-para">Okiha @ 2017</p></div>
+            <div class="col-md-1 col-md-offset-1 col-xs-1  footer-fa-rightSquare"><a href="FileNo15.html"><i class="fa fa-caret-square-o-right" aria-hidden="true"></i></a>
+            </div>
+
+        </div>
+    </div>
+</section>
+</body>
+</html>
+
+<script !src="">
+    $(function() {
+
+        var CircleMenu = {}
+
+        CircleMenu = {
+            $toggleButton: $('[data-circle-menu-toggle]'),
+            $buttonsGroup: $('[data-circle-menu-group]'),
+
+            init: function() {
+                CircleMenu.toggle = CircleMenu.showButtonsGroup;
+                CircleMenu.$toggleButton.on('click', function(event) {
+                    CircleMenu.toggle(event);
+                });
+            },
+
+            showButtonsGroup: function(event) {
+                console.log("here4");
+                $("#drop-down-back-div").css("display", "block");
+                event.preventDefault();
+                CircleMenu.$buttonsGroup.show();
+                CircleMenu.toggle = CircleMenu.hideButtonsGroup;
+            },
+
+            hideButtonsGroup: function(event) {
+                console.log("here1");
+                $("#drop-down-back-div").css("display", "none");
+                $("#drop-down-back-div1").css("display","none");
+
+                CircleMenu2.hideButtonsGroup(event);
+
+                event.preventDefault();
+                CircleMenu.$buttonsGroup.hide();
+                CircleMenu.toggle = CircleMenu.showButtonsGroup;
+            }
+        }
+
+        CircleMenu.init();
+
+
+
+
+        var CircleMenu2 = {}
+
+        CircleMenu2 = {
+            $toggleButton2: $('[data-circle-menu-toggle2]'),
+            $buttonsGroup2: $('[data-circle-menu-group2]'),
+
+            init: function() {
+                CircleMenu2.toggle = CircleMenu2.showButtonsGroup;
+                CircleMenu2.$toggleButton2.on('click', function(event) {
+                    CircleMenu2.toggle(event);
+                });
+            },
+
+            showButtonsGroup: function(event) {
+                console.log("here3");
+                $("#drop-down-back-div1").css("display","block");
+                $("#usersDetailsDiv").css("display","block");
+                event.preventDefault();
+                CircleMenu2.$buttonsGroup2.show();
+                CircleMenu2.toggle = CircleMenu2.hideButtonsGroup;
+            },
+
+            hideButtonsGroup: function(event) {
+                console.log("here2");
+                $("#drop-down-back-div1").css("display","none");
+                event.preventDefault();
+                CircleMenu2.$buttonsGroup2.hide();
+                CircleMenu2.toggle = CircleMenu2.showButtonsGroup;
+            }
+        }
+
+        CircleMenu2.init();
+
+    });
+</script>
