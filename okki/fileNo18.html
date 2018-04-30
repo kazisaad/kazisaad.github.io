@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OKIHA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Mina|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section id="head">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-1 col-xs-1 homeIcon"><p class="file16-top-left-icon"><a href="fileNo17.html">Users</a> </p>
+                <img class="file17-top-left-triangle" src="img/right-top-triangle.png" alt=""></div>
+            <div class="col-md-8 col-md-offset-2  col-xs-6"><img class="img-responsive okiha-logo-fileNo12" src="img/logowithTraingele.png" alt=""></div>
+            <div class="col-md-2 col-xs-2 dropDown-Circle">
+                <div class="circle-menu">
+                    <button class="circle-menu__button circle-menu__toggle-button"><p class="file16-top-right-icon"><a href="fileNo19.html">sub
+                        <br> accounts</a></p></button>
+                    <div class="circle-menu__buttons-group" data-circle-menu-group="">
+                        <button class="circle-menu__button circle-menu__button--1"><i class="fa fa-rocket"></i><p class="right-top-menu-mission">Mission</p></button>
+                        <button class="circle-menu__button circle-menu__button--2"><i class="fa fa-user"><p class="right-top-menu-ceo">CEO</p></i></button>
+                        <button class="circle-menu__button circle-menu__button--3"><i class="fa fa-globe"><p class="right-top-menu-world">Countries</p></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="drop-down">
+    <div class="container">
+        <div class="row file17-dropDown-row">
+            <div class="btn-group">
+                <button type="button" class="btn btn-default-file16 dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <u> All</u> <span class="fa fa-chevron-down"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                </ul>
+            </div>
+            <div class="row file18-text">
+                <div class="col-md-12"><p class="file18-text-all">All</p></div>
+                <div class="col-md-6"><p class="file18-para-country-name">AUSTRALIA</p></div>
+                <div class="col-md-6"><p class="file18-para-country-name">UNITED STATE</p></div>
+                <div class="col-md-6"><p class="file18-para-country-name">AUSTRIA</p></div>
+                <div class="col-md-6"><p class="file18-para-country-name">BELGIUM</p></div>
+                <div class="col-md-6"><p class="file18-para-country-name">CANADA</p></div>
+                <div class="col-md-6"><p class="file18-para-country-name">DENMARK</p></div>
+                <div class="col-md-6"><p class="file18-para-country-name">FINLAND</p></div>
+                <div class="col-md-6"><p class="file18-para-country-name">FRANCE</p></div>
+                <div class="col-md-6"><p class="file18-para-country-name">GERMANY</p></div>
+                <div class="col-md-6"><p class="file18-para-country-name">HONG KONG</p></div>
+
+
+            </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="footer">
+    <div class="container">
+        <div class="row file18-footer-row">
+            <div id="drop-down-back-div3"  class="file1-left-footer-icon" style="display: none;"></div>
+
+            <div class="col-md-1 col-xs-1 footer-fa-left">
+
+                <button id="drop-down-button3" class="footer-icon-scale-div" data-circle-menu-toggle3=""><img class="img-responsive file16-lock-img" src="img/style-lock-down-left.png" alt="">
+                </button>
+                <div id="bottomButtons" class="circle-menu__buttons-group" data-circle-menu-group3="">
+                    <button class="footer-circle-menu__button scale-menu__button--1"><p class="scale-menu-terms"><a href="fileNo10.html">Terms</a></p></button>
+                    <button style="z-index: 99;" class="footer-circle-menu__button scale-menu__button--2"><p class="right-top-menu-privacy"><a href="fileNo11.html">Privacy</a></p></button>
+                </div>
+
+            </div>
+            <div class="col-md-9 col-xs-6"><p class="footer-para">Okiha @ 2017</p></div>
+            <div class="col-md-1 col-md-offset-1 col-xs-1  footer-fa-rightSquare"><a href="FileNo15.html"><img class="img-responsive file1-logout-img" src="img/LogOut.png" alt=""></a>
+            </div>
+
+        </div>
+    </div>
+</section>
+</body>
+</html>
+
+<script !src="">
+    $(function() {
+
+        var CircleMenu = {}
+
+        CircleMenu = {
+            $toggleButton: $('[data-circle-menu-toggle]'),
+            $buttonsGroup: $('[data-circle-menu-group]'),
+
+            init: function() {
+                CircleMenu.toggle = CircleMenu.showButtonsGroup;
+                CircleMenu.$toggleButton.on('click', function(event) {
+                    CircleMenu.toggle(event);
+                });
+            },
+
+            showButtonsGroup: function(event) {
+                console.log('show');
+                event.preventDefault();
+                CircleMenu.$buttonsGroup.show();
+                CircleMenu.toggle = CircleMenu.hideButtonsGroup;
+            },
+
+            hideButtonsGroup: function(event) {
+                console.log('hide');
+                event.preventDefault();
+                CircleMenu.$buttonsGroup.hide();
+                CircleMenu.toggle = CircleMenu.showButtonsGroup;
+            }
+        }
+
+        CircleMenu.init();
+    });
+</script>
+
+
+<script !src="">
+
+    $( "#drop-down-button" ).click(function() {
+        if($("#drop-down-back-div").css("display") == "block"){
+            $("#drop-down-back-div").css("display", "none");
+        }else{
+            $("#drop-down-back-div").css("display", "block");
+        }
+
+
+    });
+
+
+    $( "#drop-down-button3" ).click(function() {
+        if($("#drop-down-back-div3").css("display") == "block"){
+            $("#drop-down-back-div3").css("display", "none");
+            $("#bottomButtons").css("display", "none");
+        }else{
+            $("#drop-down-back-div3").css("display", "block");
+            $("#bottomButtons").css("display", "block");
+        }
+
+
+    });
+</script>
