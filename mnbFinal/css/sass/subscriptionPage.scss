@@ -1,0 +1,95 @@
+// SUBSCRIPTION PAGE
+
+#subscription-heading {
+  background-color: #FAFAFC;
+  text-align: center;
+  h2 {
+    @include standard-h2;
+    text-align: center;
+    padding-top: 20px;
+  }
+}
+
+#subscription-options {
+  background-color: #FAFAFC;
+  padding: 20px 0;
+  h2 {
+    @include standard-h2;
+  }
+  img {
+    padding: 20px 0;
+  }
+  p {
+    color: #434343;
+    font-weight: 100;
+  }
+  p:last-child {
+    font-style: italic;
+    font-weight: 100;
+  }
+  button {
+    margin: 20px 0;
+  }
+  .class-with-pad {
+    background-color: #fff;
+    text-align: center;
+    margin:10px;
+    padding:10px;
+  }
+
+}
+
+#popular-subscription-packages {
+  background-color: #EBECF1;
+  padding: 20px 0;
+  text-align: center;
+  .subscription-heading {
+    margin-bottom: 20px;
+  }
+  img {
+    width: 100%;
+  }
+  h2{
+    @include standard-h2;
+    text-align: center;
+    padding-top: 5px;
+  }
+}
+
+.subscription-item {
+  h3 {
+    font-size: 16px;
+    text-align: left;
+    margin-top: 5px;
+    color: #353535;
+    font-weight: 600;
+  }
+  p {
+    font-size: 14px;
+    text-align: left;
+    margin-top: -5px;
+    color: #929292;
+  }
+}
+
+#common-questions {
+  h2 {
+    @include standard-h2;
+    text-align: center;
+    padding: 10px 0;
+  }
+  h3 {
+    font: {
+      size: 18px;
+      weight: 600;
+    }
+  }
+  p {
+    font: {
+      size: 14px;
+      weight: 100;
+    }
+    line-height: 28px;
+    letter-spacing: 1.3px;
+  }
+}

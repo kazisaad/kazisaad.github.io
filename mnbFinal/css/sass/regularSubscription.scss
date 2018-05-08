@@ -1,0 +1,136 @@
+// HEADING
+
+#heading {
+  .steps {
+    margin-top: 40px;
+  }
+  .steps li.completed .circle {
+    background-color: #7481A9;
+    color: white;
+    border-color: #7481A9;
+    &:after {
+      content: '';
+      margin-top: 7px;
+      margin-left: 6px;
+      background-image: url('#{$rootPath}/img/sprites.png');
+      background-position: -725px -486px;
+      width: 8px;
+      height: 6px;
+    }
+  }
+  .steps li.active .circle {
+    background-color: #0F346C;
+    color: white;
+    border-color: #0F346C;
+  }
+  .circle {
+    @include circle;
+    &:after {
+      content: attr(data-number);
+      display: block;
+      width: 20px;
+      text-align: center;
+      line-height: 20px;
+      font-weight: 600
+    }
+  }
+  .steps li.active .text {
+    font-weight: 600;
+    display: inline-block;
+    line-height: 22px;
+  }
+  .steps li+li {
+    margin-left: 67px;
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 50%;
+      width: 32px;
+      height: 0;
+      margin-left: -52px;
+      margin-top: -1px;
+      border: solid #BAC0D3 1px;
+      border-bottom: none
+    }
+  }
+  .steps li {
+    position: relative;
+  }
+  .steps .text {
+    display: inline-block;
+    line-height: 22px;
+    font-weight: 300;
+  }
+  text-align: center;
+  h2 {
+    @include standard-h2;
+    text-align: center;
+    padding-top: 5px;
+  }
+  p {
+    color: #505050;
+  }
+}
+
+// REGULAR DELIVERY OPTIONS
+
+#regular-delivery-options {
+  padding: 20px;
+  .heading {
+    text-align: center;
+    h3 {
+      font-size: 18px;
+    }
+    p {
+      color: #505050;
+    }
+  }
+  .subscription-frequency-select {
+    margin-top: 10px;
+    padding: 13px 17px;
+    border-radius: 5px;
+    border: 1px solid #ebebeb;
+    display: inline-block;
+    text-align: left;
+    cursor: pointer;
+  }
+  .selected {
+    border : 1px solid $primaryColor;
+    background-color: $primaryColor;
+    color: #fff;
+    font-weight: 600;
+  }
+  .select-button {
+    border: 1px solid #CECECE;
+    width: 100%;
+    padding: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .order-summary-div {
+    border: 1px solid #D6D7E1;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: #F0F2F7;
+    padding: 0 20px 0 20px;
+  }
+}
+
+@media(max-width: 768px) {
+
+#heading {
+
+.steps .text {
+  display: none;
+}
+
+.steps li.active .text {
+  display: none;
+}
+
+}
+
+}

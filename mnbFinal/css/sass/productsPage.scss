@@ -1,0 +1,93 @@
+// PRODUCT PAGE
+
+#heading {
+  text-align: center;
+  h2 {
+    @include standard-h2;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .btn-group {
+    padding: 20px 0;
+  }
+  .btn-group .btn-default {
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+  .btn-group>.btn {
+    background-color: #EEEEEE;
+    color: #000;
+    border: 1px solid #EEEEEE;
+  }
+
+  .btn-group>.btn.active {
+    background-color: $secondaryColor;
+    color: $whiteColor;
+    border: 1px solid $secondaryColor;
+  }
+}
+
+// PRODUCTS DISPLAY
+
+#products-display {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.product-cell {
+  margin-bottom: 20px;
+}
+
+.product-cell img {
+  width: 100%;
+}
+
+.product-cell h3 {
+    font-size: 16px;
+    text-align: left;
+    margin-top: 5px;
+    color: #353535;
+    font-weight: 600;
+}
+.product-cell p {
+  font-size: 14px;
+  text-align: left;
+  margin-top: -5px;
+  color: #929292;
+}
+
+.item-price {
+  position: absolute;
+  top: 40px;
+  left: 15px;
+  background-color: $primaryColor;
+  color: #fff;
+  padding: 5px;
+}
+
+.missing-something {
+  font-size: 18px;
+  font-style: italic;
+  color: #000;
+  margin-bottom: -10px;
+}
+
+@media(max-width: 768px) {
+
+  .product-cell h3 {
+      font-size: 16px;
+      text-align: center;
+      margin-top: 10px;
+      color: #000;
+      font-weight: 600;
+  }
+  .product-cell p {
+    font-size: 14px;
+    text-align: center;
+    padding-left: 30px;
+    margin-top: -5px;
+    margin-bottom: 20px;
+    color: #000;
+  }
+
+}

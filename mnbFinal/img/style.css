@@ -1,0 +1,2009 @@
+#head{
+    background-color: #06336E;
+}
+
+.headText{
+    padding-top: 10px;
+    color: white;
+}
+
+.navbar-default {
+    margin-bottom: 0px;
+    height: 86px;
+    /* width: 200px; */
+    background-color: #FFFFFF;
+    border-color: #979797;
+}
+
+.navbar-default .navbar-nav>li {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.btn-info {
+    background-color: #63D231;
+    color: white;
+    width: 96px;
+    height: 41px;
+
+}
+
+.navbar-default .navbar-nav li a:hover {
+    color: #06336E;
+}
+/*steps*/
+
+
+/*stepsEnd*/
+
+form{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.line{
+    padding-left: 15px;
+
+}
+
+.regular{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #06336E;
+}
+
+.para{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #505050;
+
+}
+.bigline{
+    margin-top: 36px;
+    text-align: center;
+}
+
+.select{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #06336E;
+}
+
+.pause{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+
+.btn-default{
+    margin-top: 19px;
+    font-size: 0.9em;
+    border-radius: 7px;
+    padding: 15px;
+    border-color: #06336E;
+}
+
+.built{
+    padding-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #06336E;
+}
+
+.create{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.btn-danger {
+    text-decoration: #06336E;
+    height: 176px;
+    width: 225px;
+    color: #06336E;
+    background-color: #FFFFFF;
+    border-color: #CDCDCD;
+    margin-bottom: 16px;
+    margin-left: 27px;
+}
+
+.addMilkBtn1{
+    padding-left: 58px;
+}
+
+.addMilkBtn2{
+    padding-left: 58px;
+}
+
+
+.cheak1{
+    margin-left: -60px;
+}
+
+.cheak2{
+    margin-left: -35px;
+ }
+
+.cheak3{
+    margin-left: 0px;
+}
+
+.cheak4{
+    margin-left: 53px;
+}
+
+.fa{
+    padding-left: 20px;
+    font-size: 1.8em;
+    color: #06336E;
+    height: 20px;
+}
+
+.order{
+    border-radius: 5px;
+    width: 390px;
+    padding-left: 18px;
+    border: 1px solid #979797;
+    background-color: #F0F2F7;
+
+}
+
+.addMilk{
+    margin-left: 50px;
+}
+
+
+.your{
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 21px;
+    padding-bottom: 15px;
+    font-size: 1.7em;
+    border-bottom: 1px solid #979797;
+    color: #06336E;
+    font-weight: bolder;
+}
+.non {
+    font-weight: 900;
+    padding-left: 21px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8em;
+    color: #929292;
+}
+
+.tr1{
+    border-bottom: 1px solid rgba(150, 150, 150, 0.44);
+}
+
+
+.minus {
+    margin-left: 1px;
+    margin-right: 3px;
+    font-size: 1.1em;
+    color: red;
+}
+.span {
+    margin-top: -10px;
+    /*margin-right: -12px;*/
+    display: inline-block;
+}
+
+.one{
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 5px;
+    color: #06336E;
+    font-size: 1.5em;
+}
+
+.plus{
+    margin-right: 5px;
+    font-size: 1.1em;
+    color: #06336E;
+}
+
+.PKR{
+    padding-left: 35px;
+    color: #929292;
+
+}
+
+.line{
+    padding-left: 4px;
+}
+
+.organic{
+    padding-left: 21px;
+    margin-bottom: 0px;
+}
+
+
+.Dawn{
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 21px;
+    margin-bottom: -5px;
+}
+
+.Sweet {
+    font-weight: 900;
+    padding-left: 21px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8em;
+    color: #929292;
+}
+
+.Dawnline{
+    padding-left: 4px;
+}
+
+.DawnImg{
+    padding-left: 22px;
+}
+
+.tr2{
+    margin-top: 10px;
+    border-bottom: 1px solid rgba(150, 150, 150, 0.44);
+}
+
+.tr3 {
+    margin-top: 10px;
+    border-bottom: 1px solid rgba(150, 150, 150, 0.44);
+}
+
+.OrganicGolden {
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 21px;
+    margin-bottom: -5px;
+}
+
+.Farm {
+    font-weight: 900;
+    padding-left: 21px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8em;
+    color: #929292;
+}
+
+.eggImg{
+    padding-left: 8px;
+}
+
+
+.tr4 {
+    padding-top: 5px;
+    padding-bottom: 14px;
+    margin-top: 10px;
+
+}
+
+.leftData1 {
+    color: #727272;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-left: 17px;
+}
+
+.leftData2 {
+    color: #727272;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0px;
+    margin-left: 17px;
+}
+
+.leftData3 {
+    color: #727272;
+    font-weight: bolder;
+    font-size: 1.2em;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 18px;
+    margin-top: 0px;
+}
+
+.rightData1{
+    margin-right: 20px;
+    text-align: right;
+    color: #727272;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 0px;
+
+}
+
+.rightData2{
+    color: #727272;
+    margin-right: 20px;
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0px;
+
+}
+
+.rightData3{
+    color: #727272;
+    margin-right: 20px;
+    text-align: right;
+    font-weight: bolder;
+    font-size: 1.2em;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 0px;
+
+}
+
+.Delivery{
+    padding-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #06336E;
+}
+
+.Select{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.input-group{
+    padding: 20px;
+    width: 250px;
+    margin-left: 62px;
+}
+
+.form-control{
+
+    border-color: #06336E;
+    border-right-color: transparent;
+}
+
+.input-group-addon{
+    background-color:#FFFFFF ;
+    border-color: #06336E;
+}
+
+.glyphicon {
+    font-size: 1.3em;
+    color: #06336E;
+}
+
+.Please{
+    margin-left: 115px;
+    margin-top: 30px;
+    color: #626262;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+
+}
+
+.second-line {
+    margin-top: -12px;
+    margin-right: 34px;
+}
+
+.btn-warning {
+    height: 44px;
+    margin-top: 30px;
+    color: #fff;
+    background-color: #06336E;
+    border-color: #06336E;
+    width: 147px;
+    margin-left: 50px;
+}
+
+
+#footer{
+    margin-top: 30px;
+    background-color: #06336E;
+    padding-top: 30px;
+}
+
+.imgNestle{
+    padding-top: 13px;
+}
+
+.want{
+    margin-left: -34px;
+    margin-bottom: 0px;
+    font-family: 'Open Sans', sans -serif;
+    color: #979797;
+    margin-top: 10px;
+}
+
+.call{
+    margin-left: -34px;
+    margin-bottom: 0px;
+    font-family: 'Open Sans', sans  -serif;
+    color: #979797;
+}
+
+.or{
+    margin-left: -34px;
+    font-family: 'Open Sans', sans  -serif;
+    color: #979797;
+}
+
+.social li{
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.social {
+    margin-top: -15px;
+}
+
+#footer .fa{
+   color: #979797;
+}
+
+.horizantalImg{
+    margin-left: -150px;
+}
+
+.icon{
+    margin-left: -150px;
+}
+
+.form{
+    font-family: 'Open Sans', sans  -serif;
+    color: #ffffff;
+}
+
+    /*.French{*/
+        /*font-family: 'Open Sans', sans  -serif;*/
+        /*color: #ffffff;*/
+    /*}*/
+.French{
+    font-family: 'Open Sans', sans  -serif;
+    color: #ffffff;
+    letter-spacing: 1px;
+    margin-top: -60px;
+    margin-left: 46px;
+}
+
+.imgWhite{
+    margin-left: -30px;
+}
+
+.footerRow{
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+
+.khalis{
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Open Sans', sans  -serif;
+    color: #979797;
+}
+
+.modal-title{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #06336E;
+}
+
+.modal-para{
+    font-family: 'Open Sans', sans  -serif;
+    color: #979797;
+    text-align: center;
+}
+
+.btn-primary {
+    width: 115px;
+    color: #06336E;
+    background-color: #FFFFFF;
+    border-color: #06336E;
+}
+
+.milkbottlePKR {
+    position: absolute;
+    top: 26px;
+    font-size: 0.6em;
+    background-color: #6BD33E;
+    color: #ffffff;
+    height: 20px;
+    width: 65px;
+    padding-top: 3px;
+}
+
+.bottleMilkDiv{
+    margin-top: 40px;
+}
+
+
+.Non-Pasteurized{
+    margin-left: -13px;
+    font-family: 'Open Sans', sans  -serif;
+    color: #979797;
+    font-size: 0.6em;
+}
+.organicGoat{
+    font-family: 'Open Sans', sans  -serif;
+    margin-bottom: 3px;
+    font-size: 0.7em;
+    font-weight: bolder;
+}
+
+.magdonalSmallImg {
+    margin-left: 11px;
+    margin-top: -11px;
+}
+
+.bottleBottomDiv{
+    margin-bottom: -4px;
+    margin-left: 20px;
+}
+
+.modal-dialog{
+    /*width: 1000px;*/
+    width: calc(100%/1.5);
+}
+
+
+.buttonRow {
+    margin-bottom: 19px;
+    margin-left: 19px;
+}
+
+.footer-form{
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans -serif;
+}
+
+.form-control::placeholder { /* Most modern browsers support this now. */
+    color:    #D7D7D7;
+}
+
+
+
+
+@media(max-width: 1200px) {
+
+    .order {
+        margin-left: 44px;
+        border-radius: 5px;
+        width: 390px;
+        padding-left: 18px;
+        border: 1px solid #979797;
+        background-color: #F0F2F7;
+    }
+
+    .btn-default {
+        margin-top: 19px;
+        font-size: 0.8em;
+        border-radius: 7px;
+        padding: 15px;
+        border-color: #06336E;
+    }
+
+    .addMilk {
+        margin-left: 0px;
+    }
+
+    .btn-danger {
+        text-decoration: #06336E;
+        height: 176px;
+        width: 225px;
+        color: #06336E;
+        background-color: #FFFFFF;
+        border-color: #CDCDCD;
+        margin-bottom: 16px;
+    }
+
+    .addMilkBtn1 {
+        padding-left: 0px;
+    }
+
+    .addMilkBtn2 {
+        padding-left: 0px;
+    }
+}
+
+
+@media(max-width: 768px) {
+    form {
+        font-size: x-small;
+        text-align: center;
+    }
+
+    .headText {
+        font-size: 0.7em;
+        text-align: center;
+        font-size: small;
+        padding-top: 6px;
+        color: white;
+    }
+
+    .regular{
+        font-size: 1.6em;
+        text-align: center;
+        color: #06336E;
+    }
+
+    .para {
+        font-size: 0.7em;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        color: #505050;
+    }
+    .pause {
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        font-size: 0.8em;
+    }
+
+    .navbar-default .navbar-nav>li {
+        margin-top: 20px;
+    }
+
+    .navbar-nav{
+      background-color: #6BD33E;
+    /*background-color: rgba(0,0,0,0.6);*/
+    }
+
+
+    .btn-default {
+        margin-left: 3px;
+        margin-top: 19px;
+        font-size: 0.8em;
+        border-radius: 7px;
+        border-color: #06336E;
+        width: 150px;
+    }
+
+    .cheak1 {
+        margin-left: 0px;
+    }
+
+    .cheak4 {
+        margin-left: -30px;
+    }
+
+    .create{
+
+    font-size: 0.8em;
+
+    }
+
+
+    .fa {
+        font-size: 0.9em;
+        color: #06336E;
+        height: 20px;
+    }
+
+
+    .btn-default {
+        margin-left: 6px;
+        margin-top: 19px;
+        font-size: 0.8em;
+        border-radius: 7px;
+        border-color: #06336E;
+        width: 153px;
+        padding-left: 7px;
+    }
+
+
+    .btn-danger {
+        text-decoration: #06336E;
+        height: 123px;
+        width: 167px;
+        color: #06336E;
+        background-color: #FFFFFF;
+        border-color: #CDCDCD;
+        margin-bottom: 16px;
+        margin-right: 0px;
+    }
+
+    .addMilkBtn3{
+        padding-left: 80px;
+    }
+
+    .addMilkBtn4{
+        padding-left: 80px;
+    }
+
+
+    .order {
+        margin-left: 18px;
+        border-radius: 8px;
+        width: 367px;
+        padding-left: 14px;
+        border: 1px solid #979797;
+        background-color: #F0F2F7;
+    }
+
+    .leftData1 {
+        font-size: 0.9em;
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 15px;
+        margin-bottom: 0px;
+        margin-left: 12px;
+    }
+
+    .leftData2 {
+        font-size: 0.9em;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 0px;
+        margin-left: 12px;
+
+    }
+
+    .leftData3 {
+        font-weight: bolder;
+        font-size: 1.2em;
+        font-family: 'Open Sans', sans-serif;
+        margin-left: 10px;
+        margin-top: 0px;
+    }
+
+
+    .rightData1 {
+        font-size: 0.9em;
+        margin-right: 20px;
+        text-align: right;
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 15px;
+        margin-bottom: 0px;
+    }
+
+    .rightData2 {
+        font-size: 0.9em;
+        margin-right: 20px;
+        text-align: right;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 0px;
+    }
+
+    .rightData3 {
+        margin-right: 20px;
+        text-align: right;
+        font-weight: bolder;
+        font-size: 1.1em;
+        font-family: 'Open Sans', sans-serif;
+        margin-top: -5px;
+    }
+
+
+    .Please {
+        margin-left: 0px;
+        letter-spacing: 1px;
+        margin-right: 90px;
+        color: #929292;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.6em;
+    }
+
+    .second-line{
+        letter-spacing: 1px;
+        color: #929292;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.6em;
+
+    }
+
+    .btn-warning {
+        width: 100px;
+        margin-left: -18px;
+        height: 33px;
+        margin-top: 30px;
+        color: #fff;
+        background-color: #06336E;
+        border-color: #06336E;
+    }
+
+
+    .PKR {
+        padding-left: 25px;
+        color: #929292;
+    }
+
+
+    .cheak2{
+        margin-left: -8px;
+    }
+
+
+    .cheak4 {
+        margin-left: -8px;
+    }
+
+
+    .engroImg{
+        padding-left: 27px;
+        margin-top: 20px;
+    }
+
+    .dawnImg {
+        padding-left: 27px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .want {
+        padding-left: 30px;
+        font-size: 0.6em;
+        margin-bottom: 0px;
+        font-family: 'Open Sans', sans -serif;
+        color: #979797;
+        margin-top: 10px;
+    }
+
+    .call {
+        font-size: 0.6em;
+        margin-left: -5px;
+        margin-bottom: 0px;
+        font-family: 'Open Sans', sans -serif;
+        color: #979797;
+    }
+
+    .or {
+        font-size: 0.6em;
+        margin-left: -4px;
+        font-family: 'Open Sans', sans -serif;
+        color: #979797;
+    }
+
+    .horizantalImg {
+        margin-left: 0px;
+    }
+
+    .icon {
+        margin-left: -43px;
+    }
+
+    .blog {
+        margin-top: 0px;
+        margin-left: 40px;
+    }
+
+    .form {
+        font-family: 'Open Sans', sans -serif;
+        color: #ffffff;
+        margin-left: 31px;
+    }
+
+    .footer-form {
+        font-size: 0.7em;
+        color: #FFFFFF;
+        font-family: 'Open Sans', sans -serif;
+    }
+
+
+
+    .OrganicEgg{
+
+        margin-right: 10px;
+    }
+
+
+    .social li {
+        margin-right: -13px;
+        display: inline-block;
+        margin-top: 40px;
+    }
+
+    .social {
+        padding-left: 2px;
+    }
+
+    .footerImg2nd{
+            /*margin-left: -24px;*/
+    }
+
+    .imgMask{
+        width: 50px;
+    }
+
+
+
+    .form {
+
+        margin-left: -14px;
+        margin-bottom: 5px;
+        font-size: 0.5em;
+        font-family: 'Open Sans', sans -serif;
+        color: #ffffff !important;
+        margin-right: -12px;
+    }
+
+    .French {
+        margin-left: 26px;
+        font-size: 0.5em;
+        font-family: 'Open Sans', sans -serif;
+        color: #ffffff;
+        padding-top: 20px;
+    }
+
+    .khalis {
+        font-size: 0.9em;
+        padding-top: 20px;
+        text-align: center;
+        font-family: 'Open Sans', sans -serif;
+        color: #979797;
+    }
+
+    .modal-dialog {
+        width: 400px;
+    }
+
+    .modal-title {
+        font-size: 1.7em;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        color: #06336E;
+    }
+
+    .buttonRow {
+        margin-left: -22px;
+    }
+
+    .btn-primary {
+        width: 109px;
+        color: #06336E;
+        background-color: #FFFFFF;
+        border-color: #06336E;
+        margin-bottom: 11px;
+    }
+    .bottleMilkImg{
+        width: 160px;
+    }
+
+    .milkbottlePKR {
+        position: absolute;
+        top: 26px;
+        font-size: 0.4em;
+        background-color: #6BD33E;
+        color: #ffffff;
+        height: 20px;
+        width: 50px;
+        padding-top: 3px;
+    }
+
+    .Non-Pasteurized {
+        margin-left: -14px;
+        font-family: 'Open Sans', sans -serif;
+        color: #979797;
+        font-size: 0.45em;
+    }
+
+    .magdonalSmallImg {
+        margin-left: 99px;
+        margin-top: -75px;
+    }
+
+    #magSmallImg{
+        margin-top: -14px;
+        margin-left: 14px;
+    }
+
+
+    /*signUp MediaQurie*/
+
+    .orderTr-signUp {
+        margin-top: 50px;
+        border-radius: 5px;
+        width: 331px;
+        padding-left: 18px;
+        border: 1px solid #D7D7D7;
+        background-color: #F0F2F7;
+        margin-left: 40px;
+    }
+
+    .minus2 {
+        font-size: 1.1em;
+        color: red;
+        margin-left: 17px;
+    }
+
+    .minus {
+        font-size: 1.1em;
+        color: red;
+    }
+
+    .non-pasturiz {
+        font-size: 0.8em;
+        font-family: 'Open Sans', sans-serif;
+        color: #A5A5A6;
+    }
+
+    .SweetBreadText {
+        font-size: 0.9em;
+        font-family: 'Open Sans', sans-serif;
+        color: #A5A5A6;
+    }
+
+    Farm-Fresh {
+        font-size: 0.8em;
+        font-family: 'Open Sans', sans-serif;
+        color: #A5A5A6;
+    }
+    .cows {
+        font-size: 1.3em;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 0px;
+    }
+
+    .DawnText {
+        font-size: 1.2em;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 0px;
+    }
+    .Red-Carpet {
+        font-size: 1.2em;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 0px;
+    }
+
+    /*signUpQueryEnd*/
+
+    /*deliveryInfo qUERY START*/
+
+    .form{
+        font-size: 0.6em;
+    }
+    #heading .steps .text {
+        display: none !important;
+    }
+
+    .
+    .deliveryInfo-Heading {
+
+        font-weight: 900;
+        margin-left: 15px;
+        font-family: "Open Sans", sans-serif;
+        color: #06336E;
+    }
+
+    .form-data{
+        margin-left: 34px;
+    }
+    .subscription-frequency-select {
+        margin: 0px !important;
+        margin-bottom: 10px !important;
+        padding: 13px 17px;
+        border-radius: 5px;
+        border: 1px solid #06336E;
+        display: inline-block;
+        text-align: left;
+        cursor: pointer;
+    }
+    .form-Card-Number {
+        margin-left: 1px !important;
+        margin-top: 16px !important;
+        font-family: 'Open Sans', sans -serif;
+        color: #06336E;
+    }
+    .delivery-InfoDiv-before-textPara {
+        font-size: .9em;
+        font-family: 'Open Sans', sans -serif;
+        color: #969696;
+    }
+
+
+    .form-expiration {
+        margin-top: 18px !important;
+        font-family: 'Open Sans', sans -serif;
+        color: #06336E;
+    }
+
+    .form-cvc {
+        margin-top: 18px !important;
+        font-family: 'Open Sans', sans -serif;
+        color: #06336E;
+    }
+
+    .packgBoxMedia{
+        margin-left: 30px;
+    }
+
+    .calenderDivMedia{
+        margin-left: 30px;
+    }
+
+    .billingInfo {
+        margin-top: 0px !important;
+    }
+
+    .orderSummery-billingInfo {
+        margin-left: 15px;
+        font-weight: 900;
+        font-family: "Open Sans", sans-serif;
+        color: #06336E;
+    }
+
+    .frequency-selection{
+        margin: 10px;
+    }
+
+    .delivery-oderSummery {
+        border-radius: 5px;
+        width: 331px;
+        padding-left: 18px;
+        border: 1px solid #979797;
+        background-color: #F0F2F7;
+        margin-left: 23px !important;
+    }
+
+    .delivery-header-subText {
+        font-family: 'Open Sans', sans-serif;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: #06336E;
+        text-align: center;
+        color: #ffffff;
+        font-size: 0.8em;
+    }
+
+    .form label{
+        color: #06336E;
+        font-size: 1.1em;
+    }
+
+
+
+
+    /*userDashBoard mob query strat*/
+
+    .lineDiv-calender{
+        display: none;
+    }
+    .subscription-link-div{
+        margin-bottom: 28px;
+        margin-left: 5px;
+    }
+
+    .custom-size-thead{
+        font-size: 11px !important;
+    }
+
+    .calender-right-icon {
+        padding-left: 0px !important;
+        color: #00BD1B;
+        font-size: 2.5em !important;
+        height: auto !important;
+        width: auto !important;
+    }
+
+    .calender-cross-icon{
+        padding-left: 0px !important;
+        color: red;
+        font-size: 2.5em !important;
+        height: auto !important;
+         width: auto !important;
+    }
+
+    .calender table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .calender-day{
+        font-size: 0.6em !important;
+    }
+
+    /*userDashBoard mob query end*/
+
+
+    /*delivery Modal mob query start*/
+
+
+    .wholeRow {
+        margin-left: -40px!important;
+    }
+
+
+    .modal-delivery-MilkBottleRate {
+        position: absolute !important;
+        top: 23px !important;
+        font-size: 0.4em !important;
+        background-color: #EAEAEA !important;
+        color: #353535;
+        height: 20px;
+        width: 50px !important;
+        padding-top: 3px;
+
+    }
+
+    .bottleMilkImgDeliveryModal{
+        width: 143px;
+    }
+    /*delivery Modal mob query end*/
+
+}
+
+
+/*signUp Page*/
+
+#head{
+    background-color: #06336E;
+}
+
+.headText{
+    padding-top: 10px;
+    color: white;
+}
+
+.navbar-default {
+    height: 86px;
+    /* width: 200px; */
+    background-color: #FFFFFF;
+    border-color: #979797;
+}
+
+.navbar-default .navbar-nav>li {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.btn-info {
+    background-color: #63D231;
+    color: white;
+    width: 96px;
+    height: 41px;
+
+}
+
+.navbar-default .navbar-nav li a:hover {
+    color: #06336E;
+}
+
+form{
+    text-align: center;
+}
+
+.line{
+    padding-left: 15px;
+
+}
+
+.Create{
+    font-size: 2em;
+    letter-spacing: 2px;
+    font-weight: 900;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #06336E;
+}
+
+.Pure{
+    font-size: 1.3em;
+    margin-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #505050;
+
+}
+.bigline{
+    text-align: center;
+}
+
+.select{
+    font-size: 1.0em;
+    margin-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #06336E;
+}
+
+.Add{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    border-color: #505050;
+
+}
+
+
+.btn-default{
+    margin-top: 19px;
+    font-size: 0.9em;
+    border-radius: 7px;
+    padding: 15px;
+    border-color: #06336E;
+}
+
+.btn-clickToAdd {
+    margin-top: 30px;
+    text-decoration: #06336E;
+    height: 97px;
+    width: 238px;
+    color: #06336E;
+    background-color: #FFFFFF;
+    border-color: #CDCDCD;
+    margin-bottom: 16px;
+}
+
+.btn-clickToAdd .fa {
+    padding-left: 20px;
+    font-size: 1.8em;
+    color: #06336E;
+
+}
+
+.clickbtnText{
+    font-size: 1.6em;
+    color: #06336E;
+}
+
+.Set{
+ padding-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #06336E;
+}
+
+.Select{
+    font-size: 1.1em;
+    margin-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    border-color: #D7D7D7;
+}
+
+.data1{
+    border-bottom: none !important;
+    border: 1px solid #D7D7D7;
+    border-radius: 2px;
+    background-color: #F0F2F7;
+}
+
+.btn-cheakBox1{
+    margin-top: 13px;
+    margin-bottom: 13px;
+    font-size: 0.7em;
+    border-radius: 7px;
+    padding: 15px;
+    background-color: #F0F2F7;
+    border-color: #06336E;
+}
+
+.cows{
+
+    margin-left: 15px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0px;
+}
+
+
+.non-pasturiz{
+    font-weight: 100;
+    font-size: 0.9em;
+    margin-left: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: #A5A5A6;
+}
+
+.data2{
+    border-bottom: none !important;
+    border: 1px solid #D7D7D7;
+    border-radius: 2px;
+    background-color: #ffffff;
+}
+
+.DawnText{
+    margin-left: 15px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0px;
+}
+.SweetBreadText{
+    font-weight: 100;
+    font-size: 0.9em;
+    margin-left: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: #A5A5A6;
+}
+
+.btn-cheakBox2 {
+    margin-top: 19px;
+    font-size: 0.6em;
+    border-radius: 7px;
+    padding: 15px;
+    border-color: #06336E;
+}
+
+.data3{
+
+    border: 1px solid #D7D7D7;
+    border-radius: 2px;
+    background-color: #F0F2F7;
+}
+
+.btn-cheakBox3{
+    margin-top: 13px;
+    margin-bottom: 13px;
+    font-size: 0.6em;
+    border-radius: 7px;
+    padding: 15px;
+    background-color: #F0F2F7;
+    border-color: #06336E;
+}
+
+.Red-Carpet{
+    margin-left: 15px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0px;
+}
+
+.Farm-Fresh{
+    font-weight: 100;
+    font-size: 0.9em;
+    margin-left: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: #A5A5A6;
+}
+
+.orderTr-signUp {
+    border-radius: 5px;
+    width: 331px;
+    padding-left: 18px;
+    border: 1px solid #D7D7D7;
+    background-color: #F0F2F7;
+    margin-left: 40px;
+}
+
+.your-signUp{
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 21px;
+    padding-bottom: 15px;
+    font-size: 1.7em;
+    border-bottom: 1px solid #D7D7D7s;
+    color: #06336E;
+    font-weight: bolder;
+}
+
+.inputCalender{
+    border-color: #06336E !important;
+}
+
+.orderTr1-OrganicText{
+    padding-left: 21px;
+    margin-bottom: -5px;
+}
+
+.lineFa{
+    padding-left: 0px;
+}
+
+.PKR-YourOrder {
+    /*padding-left: 16px;*/
+    color: #929292;
+}
+
+
+.minus2 {
+    font-size: 1.1em;
+    color: red;
+    margin-left: 22px;
+
+}
+
+
+
+/*delivery-information*/
+
+.delivery-header-subText{
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #06336E;
+    text-align: center;
+    color: #ffffff;
+}
+
+#heading{
+    text-align: center;
+}
+#heading .steps {
+    margin-top: 40px;
+}
+
+#heading .steps li {
+    position: relative;
+}
+
+#heading .steps li.active .circle {
+    background-color: #0F346C;
+    color: white;
+    border-color: #0F346C;
+}
+#heading .circle {
+    display: inline-block;
+    float: left;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    border: solid #737373 1px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+    margin-right: 10px;
+}
+
+#heading .steps li.active .text {
+    font-weight: 600;
+    display: inline-block;
+    /* line-height: 22px; */
+}
+#heading .steps .text {
+    display: inline-block;
+    line-height: 22px;
+    font-weight: 300;
+}
+
+#heading .steps li + li {
+    margin-left: 67px;
+}
+#heading .steps li {
+    position: relative;
+}
+
+#heading .steps li + li {
+    margin-left: 67px;
+}
+
+#heading .steps li {
+    position: relative;
+}
+
+.delivery-Info-Div{
+    margin-top: 30px;
+}
+
+.deliveryInfo-Heading{
+    font-weight: 900;
+    margin-left: 15px;
+    font-family: "Open Sans", sans-serif;
+    color: #06336E;
+}
+
+.form {
+    font-family: 'Open Sans', sans -serif;
+    color: #06336E;
+}
+
+.form-data .form {
+    padding-top: 30px;
+}
+
+.form-control {
+    border-radius: 4px;
+    border-color: #D7D7D7;
+    height: 40px;
+}
+
+.optional{
+    color: #ABABAB;
+}
+
+.delivery-oderSummery{
+    border-radius: 5px;
+    width: 331px;
+    padding-left: 18px;
+    border: 1px solid #D7D7D7;
+    background-color: #F0F2F7;
+    margin-left: 40px;
+
+}
+
+.orderSummeryHead{
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 21px;
+    padding-bottom: 15px;
+    font-size: 1.7em;
+    color: #06336E;
+    font-weight: 900;
+}
+
+.summaryOrder-Email{
+    font-weight: 600;
+    padding-left: 18px;
+    color: #06336E;
+}
+
+.summaryOrder-change{
+    font-weight: 300;
+    color: #A5A5A6;
+}
+
+.kayziEmail{
+    padding-left: 18px;
+    color: #373737;
+}
+
+.orderSummery-Plan{
+    margin-top: 15px;
+    padding-left: 18px;
+    color: #06336E;
+}
+
+.orderSummery-Daily{
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 18px;
+    color: #373737;
+}
+
+.orderSummery-selectedPackg{
+    margin-top: 15px;
+    padding-left: 18px;
+    color: #06336E;
+}
+
+.orderSummery-None{
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 18px;
+    color: #373737;
+}
+
+.orderSummery-delivery{
+    margin-top: 15px;
+    padding-left: 18px;
+    color: #06336E;
+}
+
+.orderSummery-FirstDelivery{
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 18px;
+    color: #373737;
+}
+
+.orderline{
+    margin-left: 20px;
+}
+
+.trTotal{
+    padding-top: 5px;
+    padding-bottom: 14px;
+    margin-top: 10px;
+}
+
+.orderSummery-skip{
+    margin-top: 44px;
+    margin-bottom: -7px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #6A6A6A;
+}
+
+.btn-orderSummery{
+    height: 44px;
+    margin-top: 30px;
+    color: #fff;
+    background-color: #06336E;
+    border-color: #06336E;
+    width: 269px;
+    margin-left: 34px;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.orderSummery-billingInfo{
+    font-weight: 900;
+    font-family: "Open Sans", sans-serif;
+    color: #06336E;
+}
+
+.billingInfo{
+    margin-top: 50px;
+}
+
+.selected {
+    border: 1px solid #06346E;
+    background-color: #06346E;
+    color: #fff;
+    font-weight: 600;
+}
+
+.subscription-frequency-select {
+    margin: -16px;
+    margin-right: 67px;
+    margin-top: 10px;
+    padding: 13px 17px;
+    border-radius: 5px;
+    border: 1px solid #06336E;
+    display: inline-block;
+    text-align: left;
+    cursor: pointer;
+}
+
+.form-Card-Number{
+    margin-left: -38px;
+    margin-top: 56px;
+    font-family: 'Open Sans', sans -serif;
+    color: #06336E;
+
+}
+
+.form-expiration{
+    margin-top: 56px;
+    font-family: 'Open Sans', sans -serif;
+    color: #06336E;
+}
+
+.form-cvc{
+    margin-top: 56px;
+    font-family: 'Open Sans', sans -serif;
+    color: #06336E;
+}
+
+#bodySection .Packg-Box{
+    margin-left: -75px;
+    font-size: 4.0em;
+    color: #06336E;
+
+    margin-top: 10px;
+}
+.packg-box-Text{
+    color: #d7d7d7;
+    font-family: 'Open Sans', sans -serif;
+    padding-left: 5px;
+    margin-top: -41px;
+    font-size: 0.8em;
+}
+
+.calendar-check{
+    margin-left: -75px;
+    font-size: 3em;
+    color: #06336E;
+    margin-top: 20px;
+}
+
+.calendar-check-Text{
+    font-family: 'Open Sans', sans -serif;
+    padding-left: 5px;
+    color: #d7d7d7;
+    margin-top: -41px;
+    font-size: 0.8em;
+}
+
+.delivery-InfoDiv-before-div{
+    margin-top: 40px;
+}
+
+.delivery-InfoDiv-before-textPara{
+    font-family: 'Open Sans', sans -serif;
+    color: #d7d7d7;
+}
+
+
+/*user dashborad start*/
+
+
+.navbar-welcome{
+    margin-bottom: -8px;
+    margin-top: 20px;
+    color: #929292;
+}
+
+.navbar-account{
+    text-align: center;
+    color: #06336E;
+
+
+
+}
+ .list-unstyled li{
+     margin-top: 20px;
+ }
+
+.list-unstyled a{
+    font-size: 1.2em;
+    color: #737373;
+    text-decoration: none;
+}
+
+
+.subsriptionTwo{
+    margin-left: 25px;
+    padding-left: 6px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #06336E;
+    color: #ffffff;
+}
+.subsriptionFive{
+    margin-left: 10px;
+    padding-left: 6px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #06336E;
+    color: #ffffff;
+}
+
+.deliverySchedule-head{
+    color: #06336E;
+    font-family: 'Open Sans', sans -serif;
+
+}
+
+.deliverySchedule-subText{
+    font-family: 'Open Sans', sans -serif;
+    color: #737373;
+}
+
+
+/*user dashborad calender*/
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+/* Month header */
+.month {
+    padding: 70px 25px;
+    width: 100%;
+    background: #1abc9c;
+    text-align: center;
+}
+
+/* Month list */
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+/* Next button */
+
+.calenderDiv{
+    margin-top: 30px;
+}
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color:#ddd;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #777;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+    padding: 5px;
+    background: #1abc9c;
+    color: white !important
+}
+
+/*calender css end*/
+.wed-Calender{
+    color: #06336E;
+    /*font-weight: 700;*/
+    font-size: 1.4em;
+}
+
+
+.cross-circle{
+    font-size: 1.1em;
+   color: #A60101;
+    margin-left: -19px;
+    padding-right: 5px;
+}
+
+.skipped-calender{
+    color: #A60101;
+}
+
+.calender-text-skippedDay{
+    color: #929292;
+    font-family: 'Open Sans', sans -serif;
+    font-size: 0.7em;
+
+}
+
+/*calender 2 css start*/
+.calender-day{
+    font-size: 0.7em;
+    background-color: #F0F0F0;
+    text-align: center;
+}
+
+.calender-month{
+    color: white;
+    background: #06336E;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+
+}
+
+.calender-date{
+    color: #858082;
+    background-color: #F9F9F9;
+    height: 70px;
+    width: 70px;
+
+}
+
+.calender-date-tr2{
+    background-color: #FFFFFF;
+    height: 70px;
+    width: 70px;
+}
+
+.calender-cross-icon{
+    color: red;
+    font-size: 5em;
+    height: 70px;
+    width: 70px;
+    
+}
+
+.calender-right-icon{
+    padding-left: 20px;
+    font-size: 5.0em;
+    color: green;
+    height: 20px;
+}
+
+.calender-date-tr3{
+    background-color: #FFFFFF;
+    height: 90px;
+    width: 70px;
+}
+
+/*calender 2 css end*/
+
+
+/*modal delivery css*/
+
+.modal-delivery-MilkBottleRate {
+    position: absolute;
+    top: 110px;
+    font-size: 0.6em;
+    background-color: #EAEAEA;
+    color: #353535;
+    height: 20px;
+    width: 65px;
+    padding-top: 3px;
+}
+
+.modal-dialog-delivery{
+    width: calc(100%/1.2);
+    margin: 0;
+    padding: 0;
+    margin-left: 9%;
+}
+
+.wholeRow{
+    margin-left: 55px;
+}
+/*modal delivery css*/
+
+
+

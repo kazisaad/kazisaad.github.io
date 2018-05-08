@@ -1,0 +1,37 @@
+// This is how you create a mixin in sass
+@mixin standard-h2($size: 28px) {
+  font: {
+    size: $size;
+    family: $fontFamily;
+    weight: 800;
+    line-height: 36px;
+    letter-spacing: 2px;
+  }
+}
+
+@mixin circle {
+  display: inline-block;
+  float: left;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: white;
+  border: solid #737373 1px;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: $fontFamily;
+  margin-right: 10px
+}
+
+// This is how you make a function in sass
+$container-size: 960px;
+@function center-width($gutter) {
+  @return $container-size - ($gutter * 2);
+}
+
+// FOR loop in sass
+@for $colNumber from 2 through 5 {
+  .col-#{$colNumber} {
+    width: ($container-size / $colNumber) - 10px;
+  }
+}

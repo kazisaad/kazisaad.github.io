@@ -1,0 +1,355 @@
+@import "sass/settings";
+@import "sass/mixins";
+@import "sass/subscriptionPage";
+@import "sass/productsPage";
+@import "sass/signupPage";
+@import "sass/regularSubscription";
+@import "sass/subscriptioninfo";
+
+// .container {
+//   width: center-width(100px);
+// }
+
+//testing the shit out of this
+
+/* NAVBAR */
+.navbar-default {
+  background-color: #fff;
+  border-color: #D0D0D0;
+}
+
+.navbar-nav {
+  font: {
+    family: 'Open Sans', sans-serif;
+    size: 15px;
+  }
+  margin: 15px 0 5px 30px;
+}
+
+.navbar-default .navbar-nav li a {
+  color: #A5A3A4;
+  &:hover {
+    color: $primaryColor;
+  }
+}
+
+.navbar-default .navbar-nav li button a{
+  color: #fff;
+  background-color: $secondaryColor;
+  &:hover {
+    color: #fff;
+    background-color: transparent;
+    text-decoration: none;
+  }
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  background-color: transparent;
+  color: $primaryColor;
+  font-weight: 600;
+}
+
+.logo img {
+  margin: 5px 0 0;
+}
+
+// BANNER
+
+#main-banner {
+  padding: 10rem;
+  background: url('#{$rootPath}/img/mainBg2.jpg');
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+#main-banner h1 {
+  font-size: 35px;
+  font-weight: 800;
+  color: $whiteColor;
+}
+
+#main-banner p {
+  color: $whiteColor;
+}
+
+// THREE-POINTS
+
+#three-points {
+  text-align: center;
+  h2 {
+    @include standard-h2;
+    padding: 30px 0;
+    padding: 35px 0 35px 0;
+  }
+}
+
+#three-points .col-md-4 {
+  padding-top: 20px;
+}
+
+#three-points h3 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  letter-spacing: 1.23px;
+}
+
+#three-points p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 1.23px;
+}
+
+// MIDDLE-CALL-TO-ACTION
+
+#middle-call-to-action {
+  text-align: center;
+  margin: 10px 0;
+}
+
+#middle-call-to-action p {
+  font-size: 24px;
+  font-weight: 300;
+  padding: 20px 0;
+}
+
+// OFFER-CARD
+#offer-card {
+  margin: 20px 0;
+  .row {
+    background: url('../img/have-to-offer-bg.jpg');
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    padding-top:40px;
+    padding-bottom: 40px;
+  }
+}
+
+.card {
+  background-color: #fff;
+  /*opacity: 0.9;*/
+  padding: 30px;
+  h2 {
+    @include standard-h2;
+    text-align: center;
+  }
+  ul {
+    padding:0;
+    list-style: none;
+  }
+  li {
+    font-size: 14px;
+    border-bottom: 1px solid #06336E;
+    padding: 15px 5px;
+  }
+  li img {
+    padding-right: 5px;
+  }
+
+}
+
+.per-serving {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.no-commitment-paragraph {
+  padding-top: 20px;
+  font-style: italic;
+}
+
+// WHY BUY FROM MNB
+
+#why-buy-from-mnb {
+  text-align: center;
+  h2 {
+    @include standard-h2;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  .col-md-3 {
+    border-right: 1px solid #D7E1EE;
+  }
+  .col-md-3:last-of-type {
+    border-right: none;
+  }
+  button {
+    margin-top: 20px;
+  }
+}
+
+// TESTIMONIAL
+
+#testimonial {
+  text-align: center;
+  background-color: #F2F2F2;
+  padding: 20px;
+  margin: 30px 0;
+  h2 {
+    @include standard-h2;
+  }
+  .customer-info {
+    text-align: right;
+  }
+  .testimonial-content {
+    text-align: left;
+    font-size: 18px;
+    padding: 10px;
+  }
+}
+
+// CANT WAIT
+
+#cant-wait {
+  text-align: center;
+  margin-bottom: 40px;
+  h2 {
+    @include standard-h2;
+  }
+}
+
+// FOOTER
+
+#footer {
+  background-color: #06336E;
+  margin-top: 50px;
+  text-align: center;
+}
+.partner-logos {
+    border-bottom: 1px solid #264E82;
+    .col-md-3{
+      padding: 30px 0;
+      border-bottom: 1px solid #264E82;
+    }
+}
+
+.footer-bottom .col-md-4{
+    border-right: 1px solid #264E82;
+    padding: 30px 0;
+    margin-top: 10px;
+    min-height: 150px;
+    &:last-of-type{
+        border-right: none;
+    }
+    p {
+      color: #C5C5C5;
+      line-height: 27px;
+      font-size: 16px;
+      letter-spacing: 1.23px;
+      font-weight: 300;
+    }
+}
+
+.footer-copyright {
+  background-color: $primaryColor;
+  border-top: 1px solid #264E82;
+  p {
+    color: #fff;
+    padding-top: 5px;
+    font-weight: 600;
+  }
+}
+
+// MEDIA QUERIES
+
+@media(max-width: 768px) {
+
+  body {
+    padding-top: 63px;
+  }
+
+  .logo img {
+    width: 70%;
+    height: 70%;
+    margin: 5px 0 0 0;
+  }
+
+  .navbar-nav {
+    margin: 0;
+  }
+
+  .navbar-default .navbar-nav li a {
+    color: #fff;
+    border-bottom: 1px solid #B5B4B4;
+  }
+
+
+  .navbar-toggle {
+    margin-top: 20px;
+  }
+
+  .navbar-collapse {
+    background-color: #06336E;
+    border: #06336E;
+  }
+
+  #main-banner  {
+    padding: 6rem;
+  }
+
+  .main-banner  h1 {
+    font-size: 30px;
+    line-height: 39px;
+    letter-spacing: 1.23px;
+    padding-top: 40px;
+  }
+
+  .main-banner  p {
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 1.23px;
+    display: none;
+  }
+
+  .main-banner  button {
+    margin: 10px 0 0 0;
+  }
+
+  #middle-call-to-action p {
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+  .banner-or {
+    display: none;
+  }
+
+  #offer-card .row {
+    background: none;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  #why-buy-from-mnb .col-md-3{
+    border-right: none;
+    margin: 40px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    p {
+      border-right: none;
+      border-bottom: 1px solid #D7E1EE;
+      width: 25%;
+      padding-bottom: 20px;
+    }
+  }
+
+  #why-buy-from-mnb .col-md-3:last-of-type p{
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  #testimonial .customer-info {
+    text-align: center;
+  }
+
+  #testimonial .testimonial-content p{
+    text-align: center;
+  }
+
+}

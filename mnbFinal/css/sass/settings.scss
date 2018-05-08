@@ -1,0 +1,39 @@
+$fontFamily: "Open Sans", sans-serif;
+$primaryColor: #06346E;
+$secondaryColor: #63D231;
+$whiteColor: #fff;
+$rootPath: "http://localhost/~saad/mnbFinal/";
+
+body {
+  padding-top: 70px;
+}
+
+p, h1, h2, h3 ,li {
+  font: {
+    family: $fontFamily;
+  }
+  color: $primaryColor;
+}
+
+.btn-success {
+  background-color: $secondaryColor;
+  border: $secondaryColor;
+  font-weight: 600;
+  padding: 10px 15px;
+  font-size: 15px;
+  font-family: $fontFamily;
+  &:hover {
+    background-color: #4DAB23;
+  }
+}
+
+.whatsapp {
+  background-color: transparent;
+  border: 1px solid #fff;
+  font-weight: 600;
+  padding: 10px 15px;
+  &:hover {
+    background-color: transparent;
+    color: #fff;
+  }
+}
